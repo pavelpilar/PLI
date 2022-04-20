@@ -25,3 +25,8 @@ Výsledky se počítají skriptem `bayes.py`. Jsou dány jako logaritmus pravdě
 | sk_veta     | -1095.331   | -1093.852   | ✅              |
 | cz_clanek   | -10736.802  | -10874.661  | ✅              |
 | sk_clanek   | -9248.217   | -9244.777   | ✅              |
+
+# Závěr
+
+Vytvořené jazykové modely správně rozpoznaly jak samotné věty tak i delší články.
+Stejně tak fastText správně rozpoznal jazyky a to s pravděpodobností >95%
