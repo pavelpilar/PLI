@@ -16,8 +16,8 @@ for file in test_files:
             "ABCDEFGHIJKLMNOPQRSTUVWXYZ" + "áéíóúůäšěčřžťďňôľ" if disable_diacritics else "",
             "abcdefghijklmnopqrstuvwxyz" + "aeiouuasecrztdnol" if disable_diacritics else ""))
 
-        res_cz = 1
-        res_sk = 1
+        res_cz = 0
+        res_sk = 0
         for first, second, third in zip(input, input[1:], input[2:]):
             try:
                 res_cz += log2(model_cz[(first, second, third)])
